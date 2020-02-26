@@ -5,21 +5,21 @@
 
 ## The yen data was first run though a Hodrick-Prescott Filter to identify trend and noise
 
-![HP1](../HP1.png)
+![HP1](HP1.PNG)
 
-![HP2](../HP2.png)
+![HP2](HP2.PNG)
 
 ## Next was the use of the ARMA model, which based on the p-value, was not a good fit because the p-value was above the 0.05 threshold, which means that the results are not significant enough to consider.
 
-![ARMA](../ARMA.png)
+![ARMA](ARMA.PNG)
 
 ## Next was the ARMIA model, which predicted the Yen decreasing in value versus the dollar.  More yen per dollar is a decrease in yen value versus the dollar.
 
-![ARIMA](../ARIMA.png)
+![ARIMA](ARIMA.PNG)
 
 ## Next was the GARCH model to predict near-term volatility:
 
-![GARCH](../GARCH.png)
+![GARCH](GARCH.PNG)
 
 ## Conclusions of time-series analysis:
 
@@ -34,7 +34,7 @@
 
 ## The last model used was an SKLearn linear regression model to predict the Yen futures settlments.
 
-![lin](../lin.png)
+![lin](lin.PNG)
 
 ## Conclusion of regression model:
 
